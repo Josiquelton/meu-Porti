@@ -1,0 +1,129 @@
+//Inicio
+*{
+    background-color: #778899;
+}
+.top{
+    margin-top: 5px;
+    margin-left: 200px;
+}
+.title a{
+    color: #1E90FF;
+    font-family: Arial;
+    
+}
+
+.title h1{
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    animation-duration: 25s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+}
+
+span{
+    color: #00BFFF;   
+}
+.list span{
+    padding-left: 15px;
+}
+.title a:hover{
+    color: #00BFFF;
+    cursor: pointer;
+}
+//Meio
+.body img{
+    border-radius: 10px;
+    padding-top: 100px;
+    margin-left: 150px;
+    height: 400px;
+    width: 1200px;
+}
+
+.courses h2{
+    
+    color: #1E90FF;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    font-size: 45px;
+    font-family: Arial;
+    margin-top: 150px;
+    margin-left: 50px;
+    text-align: center;
+    animation-duration: 25s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+}
+.list{
+    margin-left: 55px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.list #certificate{
+    color: darkblue;
+}
+
+.list li{
+    width: 200px;
+    text-align: center;
+    list-style: none;
+    border: 3px solid  #FFFFFF ;
+    border-radius: 10px;
+    
+}
+
+.list a{
+    color: #1E90FF;
+    
+}
+
+.list a:hover{
+    color: #00BFFF;
+}
+
+.list h1{
+    color: #00BFFF;
+    font-size: 45px;
+    font-family: Arial;
+}
+//Final
+.footer{
+    width: 650px;
+    height: 50px;
+    font-family: Arial;
+    font-size: 35px;
+    margin: 120px 50px 120px 120px;
+    color: #FFFFFF;
+    border: 3px solid #1E90FF;
+    border-radius: 10px;
+    text-align: center;
+    animation-duration: 25s;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    
+}
+
+.footer li{
+    list-style: none;
+}
+
+
+//animação
+
+
+@keyframes animate{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
